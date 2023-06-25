@@ -14,7 +14,7 @@ body {
 /* nav */
 .adamkeys_container {
     gap: 20px;
-    position: fixed;
+    position: absolute;
     top: 20px;
 }
 .adamkeyes {
@@ -31,4 +31,11 @@ body {
 .icon img {
     width: 19.686px;
     height: 19.2px;
+}
+
+/* main */
+/* introduction section  */
+.imageDiv img {
+    width: 174px;
+    height: 383px;
 }
