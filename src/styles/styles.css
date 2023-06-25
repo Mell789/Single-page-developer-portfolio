@@ -11,6 +11,10 @@ body {
     background-color: var(--black);
 }
 
+.mainContainer {
+    padding: 0 16px;
+}
+
 /* nav */
 .adamkeys_container {
     gap: 20px;
@@ -35,7 +39,33 @@ body {
 
 /* main */
 /* introduction section  */
-.imageDiv img {
+.introduction {
+    gap: 40px;
+    margin-bottom: 80px;
+}
+.imageDiv {
     width: 174px;
     height: 383px;
+}
+.introduction_content .heading {
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: -1.136px;
+}
+.introduction_content p {
+    color: var(--grey, #D9D9D9);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+}
+.introduction_content div:last-child:not(.exclude) {
+    color: var(--white, #FFF);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 2.286px;
+}
+.introduction_content div:last-child div {
+    padding-bottom: 10px;
+    border-bottom: 2px solid #4EE1A0;
 }

@@ -19,7 +19,7 @@
   <div class="mainContainer">
     <nav>
       <div class="position-relative w-100">
-        <div class="d-flex flex-column flex-md-row justify-content-md-between align-items-center adamkeys_container w-100">
+        <div class="d-flex flex-column flex-md-row justify-content-md-between align-items-center adamkeys_container w-100" style="z-index: 99;">
           <div class="adamkeyes">adamkeys</div>
           <div class="social-icons d-flex">
             <div class="icon">
@@ -39,9 +39,29 @@
       </div>
     </nav>
     <main>
-      <section class="introduction">
-        <div class="imageDiv text-center">
-          <img src="assets/images/image-profile-mobile.webp" alt="profile-image-mobile">
+      <section class="introduction d-flex flex-column flex-md-row align-items-md-end">
+        <div class="imageDiv text-center order-md-last">
+          <img src="assets/images/image-profile-mobile.webp" alt="profile-image-mobile" class="img-cover d-md-none">
+          <img src="assets/images/image-profile-tablet.webp" alt="profile-image-mobile" class="img-cover d-none d-md-block">
+        </div>
+        <div class="introduction_content d-md-flex flex-column justify-content-md-end text-center text-md-start order-md-first z-1">
+          <div class="heading mb-4">
+            <!-- mobile -->
+            <div style="margin-bottom: 0 !important;" class="d-md-none heading exclude">
+              Nice to meet you! I’m <span class="adam_keyes d-inline-block">Adam Keyes</span>.
+            </div>
+            <!-- tablet -->
+            <div style="margin-bottom: 0 !important;" class="d-none d-md-block heading exclude pre-line">Nice to 
+meet you! I’m 
+<span class="adam_keyes d-inline-block">Adam Keyes</span>.
+            </div>
+          </div>
+          <p class="m-0 mb-4">
+            Based in the UK, I’m a front-end developer passionate about building accessible web apps that users love.
+          </p>
+          <div class="text-uppercase">
+            <div class="d-inline-block exclude">Contact Me</div class="d-inline-block">
+          </div>
         </div>
       </section>
     </main>

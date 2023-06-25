@@ -13,6 +13,45 @@
         width: 24px;
         height: 24px;
     }
+    /* introduction */
+    .introduction {
+        position: relative;
+        height: 600px;
+    }
+    .imageDiv {
+        position: absolute;
+        right: -30px;
+        bottom: 0;
+        width: 322px;
+        height: 600px;
+    }
+    .introduction_content {
+        max-width: 443px;
+    }
+    .introduction_content .heading {
+        color: var(--white, #FFF);
+        font-size: 72px;
+        font-family: Grotesk;
+        font-weight: 700;
+        line-height: 72px;
+        letter-spacing: -2.045px;
+        margin-bottom: 60px !important;
+    }
+    .introduction_content p {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 28px;
+        margin-bottom: 34px !important;
+    }
+    .introduction_content div:last-child:not(.exclude) {
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 26px;
+        letter-spacing: 2.286px;
+    }
+    .adam_keyes {
+        border-bottom: 6px solid #4EE1A0;
+    }
 }
 @media screen and (min-width: 1024px){
     .mainContainer {
