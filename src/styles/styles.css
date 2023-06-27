@@ -43,7 +43,7 @@ body {
     gap: 40px;
     margin-bottom: 80px;
 }
-.imageDiv {
+.imageDiv img {
     width: 174px;
     height: 383px;
 }

@@ -8,10 +8,13 @@
     color: #FFFFFF !important;
     font-weight: 700 !important;
 }
-.headingXL {
-    font-size: 88px !important;
-    line-height: 88px !important;
-    letter-spacing: -2.5px !important;
+@media screen and (min-width:1200px)
+{
+    .headingXL {
+        font-size: 88px !important;
+        line-height: 88px !important;
+        letter-spacing: -2.5px !important;
+    }
 }
 .headingL {
     font-size: 48px !important;

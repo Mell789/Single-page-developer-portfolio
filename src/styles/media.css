@@ -18,7 +18,7 @@
         position: relative;
         height: 600px;
     }
-    .imageDiv {
+    .imageDiv img {
         position: absolute;
         right: -30px;
         bottom: 0;
@@ -55,11 +55,12 @@
 }
 @media screen and (min-width: 1024px){
     .mainContainer {
-        padding: 0 60px;
+        padding: 0 80px;
     }
     .adamkeys_container {
         top: 33px;
     }
+    
 }
 @media screen and (min-width: 1200px){
     .mainContainer {
@@ -68,8 +69,27 @@
     .adamkeys_container {
         top: 40px;
     }
+    /* introduction */
+    .introduction {
+        height: 720px;
+    }
+    .imageDiv img {
+        width: 445px;
+        height: 720px;
+    }
+    .introduction_content {
+        max-width: 650px;
+    }
+    .introduction_content p {
+        max-width: 445px;
+        margin-bottom: 66px !important; 
+    }
 }
-@media screen and (min-width: 1400px){}
+@media screen and (min-width: 1400px){
+    .introduction_content {
+        max-width: 706px;
+    }
+}
 @media screen and (min-width: 1600px){
     .mainContainer {
         padding: 0 180px;
@@ -78,4 +98,8 @@
         top: 50px;
     }
 }
-@media screen and (min-width: 1900px){}
+@media screen and (min-width: 1900px){
+    .mainContainer {
+        padding: 0 250px;
+    }
+}
