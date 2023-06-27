@@ -95,3 +95,45 @@ body {
     font-weight: 500;
     line-height: 26px;
 }
+/* projects */
+.projects {
+    margin-bottom: 80px;
+}
+.margin406080 {
+    margin-bottom: 40px;
+}
+.projects_cap {
+    color: var(--white);
+    font-size: 32px;
+    font-family: Grotesk;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -1.136px;
+}
+.projects_grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 40px;
+    column-gap: 20px;
+}
+
+.projects_grid_imgdiv {
+    margin-bottom: 20px;
+}
+.projects_grid_imgdiv .hoverbox {
+    display: none !important;
+    cursor: pointer;
+    background-color: rgba(0,0,0,0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.projects_grid_cap {
+    color: var(--white, #FFF);
+    font-size: 24px;
+    font-family: Grotesk;
+    font-weight: 700;
+    line-height: 32px;
+}

@@ -1,4 +1,9 @@
-@media screen and (min-width: 375px){}
+@media screen and (min-width: 375px){
+    .projects_cap {
+        font-size: 40px;
+        line-height: 40px;
+    }
+}
 @media screen and (min-width: 768px){
     .mainContainer {
         padding: 0 30px;
@@ -73,6 +78,14 @@
         font-weight: 500;
         line-height: 28px;
     }
+    /* projects */
+    .projects {margin-bottom: 100px;}
+    .margin406080 {
+        margin-bottom: 60px;
+    }
+    .projects_grid {
+        grid-template-columns: repeat(2,1fr);
+    }
 }
 @media screen and (min-width: 1024px){
     .mainContainer {
@@ -81,6 +94,7 @@
     .adamkeys_container {
         top: 33px;
     }
+    
 }
 @media screen and (min-width: 1200px){
     .mainContainer {
@@ -109,6 +123,18 @@
         grid-template-columns: repeat(3,1fr);
         row-gap: 58px;
         margin-bottom: 140px;
+    }
+    /* projects */
+    .margin406080 {
+        margin-bottom: 80px;
+    }
+    /* projects */
+    .projects_grid_imgdiv:hover .hoverbox {
+        display: flex !important;
+    }
+    .projects_grid {
+        row-gap: 70px;
+        column-gap: 24px;
     }
 }
 @media screen and (min-width: 1400px){
