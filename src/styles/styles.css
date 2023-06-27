@@ -58,14 +58,14 @@ body {
     font-weight: 500;
     line-height: 26px;
 }
-.introduction_content div:last-child:not(.exclude) {
+.contactme {
+    display: inline-block;
+    text-transform: uppercase;
     color: var(--white, #FFF);
     font-size: 16px;
     font-weight: 700;
     line-height: 26px;
     letter-spacing: 2.286px;
-}
-.introduction_content div:last-child div {
     padding-bottom: 10px;
     border-bottom: 2px solid #4EE1A0;
 }
