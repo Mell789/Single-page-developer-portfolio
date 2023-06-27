@@ -69,3 +69,29 @@ body {
     padding-bottom: 10px;
     border-bottom: 2px solid #4EE1A0;
 }
+/* skills */
+.skills {
+    border-top: 1px solid var(--white);
+    border-bottom: 1px solid var(--white);
+    padding: 40px 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 24px;
+    margin-bottom: 80px;
+}
+
+.skills .item div {
+    color: var(--white);
+    font-size: 32px;
+    font-family: Grotesk;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: -1px;
+}
+.skills .item p {
+    color: var(--grey);
+    font-size: 16px;
+    font-family: Grotesk;
+    font-weight: 500;
+    line-height: 26px;
+}
