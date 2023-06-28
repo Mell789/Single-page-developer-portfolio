@@ -103,6 +103,13 @@
         font-size: 18px;
         line-height: 28px;
     }
+    /* footer */
+    footer {
+        margin-left: -30px;
+        margin-right: -30px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
 }
 @media screen and (min-width: 1024px){
     .mainContainer {
@@ -116,6 +123,13 @@
         margin-right: -80px;
         padding-left: 200px;
         padding-right: 200px;
+    }
+    /* footer */
+    footer {
+        margin-left: -80px;
+        margin-right: -80px;
+        padding-left: 80px;
+        padding-right: 80px;
     }
 }
 @media screen and (min-width: 1200px){
@@ -172,6 +186,13 @@
         font-size: 88px;
         line-height: 88px;
     }
+    /* footer */
+    footer {
+        margin-left: -165px;
+        margin-right: -165px;
+        padding-left: 165px;
+        padding-right: 165px;
+    }
 }
 @media screen and (min-width: 1400px){
     .introduction_content {
@@ -192,12 +213,26 @@
         padding-left: 180px;
         padding-right: 180px;
     }
+    /* footer */
+    footer {
+        margin-left: -180px;
+        margin-right: -180px;
+        padding-left: 180px;
+        padding-right: 180px;
+    }
 }
 @media screen and (min-width: 1900px){
     .mainContainer {
         padding: 0 250px;
     }
     .contactme_container {
+        margin-left: -250px;
+        margin-right: -250px;
+        padding-left: 250px;
+        padding-right: 250px;
+    }
+    /* footer */
+    footer {
         margin-left: -250px;
         margin-right: -250px;
         padding-left: 250px;
