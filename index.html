@@ -237,7 +237,13 @@ meet you! I’m
           </div>
           <form>
             <input type="text" class="input" name="name" placeholder="NAME">
-            <input type="email" class="input" name="email" placeholder="EMAIL">
+            <div class="inputChecker position-relative">
+              <input type="email" class="input" name="email" placeholder="EMAIL">
+              <div class="invalidmessage text-end">
+                Sorry, invalid format here
+              </div>
+              <img src="assets/images/error.svg" class="error">
+            </div>
             <textarea class="input textarea" cols="30" rows="5" placeholder="MESSAGE"></textarea>
             <div class="d-flex justify-content-end">
               <button class="contactme" type="button">SEND MESSAGE</button>
@@ -251,7 +257,9 @@ meet you! I’m
       <div class="d-flex flex-column flex-md-row justify-content-md-between align-items-center footer_container">
         <div class="adamkeyes">adamkeyes</div>
         <div class="social-icons d-flex">
-          <div class="icon"><img src="assets/images/icon-github.svg"></div>
+          <div class="icon">
+            <img src="assets/images/icon-github.svg">
+          </div>
           <div class="icon"><img src="assets/images/icon-frontend-mentor.svg"></div>
           <div class="icon"><img src="assets/images/icon-linkedin.svg"></div>
           <div class="icon"><img src="assets/images/icon-twitter.svg"></div>

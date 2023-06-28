@@ -35,6 +35,7 @@ body {
 .icon img {
     width: 19.686px;
     height: 19.2px;
+    cursor: pointer;
 }
 
 /* main */
@@ -60,6 +61,8 @@ body {
 }
 .contactme {
     display: inline-block;
+    cursor: pointer;
+    transition: .1s;
     text-transform: uppercase;
     color: var(--white, #FFF);
     font-size: 16px;
@@ -68,6 +71,9 @@ body {
     letter-spacing: 2.286px;
     padding-bottom: 10px;
     border-bottom: 2px solid #4EE1A0;
+}
+.contactme:hover {
+    color: #4EE1A0;
 }
 /* skills */
 .skills {
@@ -183,12 +189,39 @@ button.contactme {
     border-width: 0 0 2px 0;
     background-color: inherit;
 }
+.invalid .invalidmessage, .invalid .error {
+    display: block;
+}
+.invalid input {
+    margin-bottom: 8px !important;
+    border-bottom-color: #FF6F5B !important;
+}
+.invalidmessage {
+    display: none;
+    color: #FF6F5B;
+    font-size: 12px;
+    font-family: Grotesk;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: -0.167px;
+    margin-bottom: 11px;
+}
+.error {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
 /* footer  */
 footer {
     padding: 0 16px 40px 16px;
     margin-left: -16px;
     margin-right: -16px;
     background-color: var(--dark-grey);
+}
+footer .icon img:hover {
+    filter: brightness(0) saturate(100%) invert(99%) sepia(71%) saturate(1531%) hue-rotate(74deg) brightness(93%) contrast(88%);
 }
 .footer_container {
     row-gap: 20px;
