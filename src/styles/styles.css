@@ -137,3 +137,49 @@ body {
     font-weight: 700;
     line-height: 32px;
 }
+/* contactme */
+.contactme_container {
+    padding: 60px 16px 87px 16px;
+    background: var(--dark-grey);
+    margin-left: -16px;
+    margin-right: -16px;
+}
+.contactme_content .caption {
+    color: var(--white, #FFF);
+    font-size: 40px;
+    font-family: Grotesk;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: -1.136px;
+    margin-bottom: 20px;
+}
+.contactme_content p {
+    color: var(--grey, #D9D9D9);
+    font-size: 16px;
+    font-family: Grotesk;
+    font-weight: 500;
+    line-height: 26px;
+}
+.contactme_container .input {
+    width: 100%;
+    outline: none;
+    padding: 0 24px 17px 24px;
+    background-color: var(--dark-grey);
+    border: none;
+    border-bottom: 1px solid #FFF;
+    color: rgba(255,255,255,0.5);
+    font-size: 16px;
+    font-family: Grotesk;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: -0.222px;
+    margin-bottom: 32px;
+}
+.contactme_container .input.textarea {
+    resize: none;
+    height: 107px;
+}
+button.contactme {
+    border-width: 0 0 2px 0;
+    background-color: inherit;
+}
