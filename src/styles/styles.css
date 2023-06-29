@@ -11,6 +11,12 @@ body {
     background-color: var(--black);
 }
 
+input:-webkit-autofill,
+input:-webkit-autofill:focus {
+  transition: background-color 600000s 0s, color 600000s 0s;
+}
+
+
 .mainContainer {
     padding: 0 16px;
 }
@@ -181,6 +187,12 @@ body {
     letter-spacing: -0.222px;
     margin-bottom: 32px;
 }
+.contactme_container .input:focus {
+    border-bottom-color: #4EE1A0;
+}
+.border-error {
+    border-bottom-color: #FF6F5B !important;
+}
 .contactme_container .input.textarea {
     resize: none;
     height: 107px;
@@ -189,13 +201,7 @@ button.contactme {
     border-width: 0 0 2px 0;
     background-color: inherit;
 }
-.invalid .invalidmessage, .invalid .error {
-    display: block;
-}
-.invalid input {
-    margin-bottom: 8px !important;
-    border-bottom-color: #FF6F5B !important;
-}
+
 .invalidmessage {
     display: none;
     color: #FF6F5B;
@@ -213,6 +219,8 @@ button.contactme {
     top: 0;
     right: 0;
 }
+.invalid .invalidmessage {display: block !important;}
+.invalid .error {display: block !important;}
 /* footer  */
 footer {
     padding: 0 16px 40px 16px;

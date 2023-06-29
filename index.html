@@ -236,17 +236,17 @@ meet you! I’m
             </p>
           </div>
           <form>
-            <input type="text" class="input" name="name" placeholder="NAME">
+            <input type="text" class="input" name="name" id="nameInput" placeholder="NAME">
             <div class="inputChecker position-relative">
-              <input type="email" class="input" name="email" placeholder="EMAIL">
+              <input type="email" class="input" name="email" id="emailInput" placeholder="EMAIL">
               <div class="invalidmessage text-end">
                 Sorry, invalid format here
               </div>
               <img src="assets/images/error.svg" class="error">
             </div>
-            <textarea class="input textarea" cols="30" rows="5" placeholder="MESSAGE"></textarea>
+            <textarea class="input textarea" cols="30" rows="5" id="message" placeholder="MESSAGE"></textarea>
             <div class="d-flex justify-content-end">
-              <button class="contactme" type="button">SEND MESSAGE</button>
+              <button class="contactme" type="submit">SEND MESSAGE</button>
             </div>
           </form>
         </div>
@@ -267,6 +267,9 @@ meet you! I’m
       </div>
     </footer>
   </div>
+
+
+  <script src="src/scripts/main.js"></script>
 
 </body>
 </html>
