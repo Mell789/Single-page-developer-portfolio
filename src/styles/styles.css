@@ -16,9 +16,30 @@ input:-webkit-autofill:focus {
   transition: background-color 600000s 0s, color 600000s 0s;
 }
 
+.circle {
+    position: absolute;
+    top: 254px;
+    right: -65px;
+}
+.rings {
+    position: absolute;
+    left: -342px;
+    top: 124px;
+}
+.rings_2 {
+    position: absolute;
+    top: 1320px;
+    right: -344px;
+}
+.rings_3 {
+    position: absolute;
+    left: -343px;
+    bottom: 263px;
+}
 
 .mainContainer {
     padding: 0 16px;
+    overflow-x: hidden;
 }
 
 /* nav */

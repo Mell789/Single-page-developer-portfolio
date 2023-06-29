@@ -3,8 +3,42 @@
         font-size: 40px;
         line-height: 40px;
     }
+    .circle {
+        position: absolute;
+        top: 254px;
+        right: -65px;
+    }
+    .rings {
+        position: absolute;
+        left: -342px;
+        top: 124px;
+    }
+    .rings_2 {
+        position: absolute;
+        top: 1280px;
+        right: -344px;
+    }
 }
 @media screen and (min-width: 768px){
+    .circle {
+        position: absolute;
+        top: 471px;
+        right: -65px;
+    }
+    .rings {
+        position: absolute;
+        left: -265px;
+        top: 95px;
+    }
+    .rings_2 {
+        position: absolute;
+        top: 1055px;
+        right: -322px;
+    }
+    .rings_3 {
+        left: -368px;
+        bottom: 140px;
+    }
     .mainContainer {
         padding: 0 30px;
     }
@@ -112,6 +146,9 @@
     }
 }
 @media screen and (min-width: 1024px){
+    .circle {
+        right: -10px;
+    }
     .mainContainer {
         padding: 0 80px;
     }
@@ -133,12 +170,35 @@
     }
 }
 @media screen and (min-width: 1200px){
+    .circle {
+        position: absolute;
+        top: 521px;
+        right: 545px;
+    }
+    .rings {
+        position: absolute;
+        left: -100px;
+        top: 133px;
+    }
+    .rings_2 {
+        position: absolute;
+        top: 1030px;
+        right: -239px;
+    }
+    .rings_3 {
+        left: -205px;
+        bottom: 160px;
+    }
     .mainContainer {
         padding: 0 165px;
     }
     .adamkeys_container {
         top: 40px;
     }
+    .social-icons {
+        padding-right: 30px;
+    }
+    
     /* introduction */
     .introduction {
         height: 720px;
@@ -146,6 +206,7 @@
     .imageDiv img {
         width: 445px;
         height: 720px;
+        right: 0;
     }
     .introduction_content {
         max-width: 650px;
@@ -195,11 +256,23 @@
     }
 }
 @media screen and (min-width: 1400px){
+    .circle {
+        position: absolute;
+        top: 521px;
+        right: 545px;
+    }
+    .rings {
+        position: absolute;
+        left: -100px;
+        top: 133px;
+    }
     .introduction_content {
         max-width: 706px;
+        transform: translateY(55px);
     }
 }
 @media screen and (min-width: 1600px){
+    .rings_2 {display: none;}
     .mainContainer {
         padding: 0 180px;
     }
@@ -222,6 +295,11 @@
     }
 }
 @media screen and (min-width: 1900px){
+    .circle {
+        position: absolute;
+        top: 521px;
+        right: 627px;
+    }
     .mainContainer {
         padding: 0 250px;
     }
