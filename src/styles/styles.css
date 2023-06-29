@@ -33,6 +33,7 @@ input:-webkit-autofill:focus {
     font-weight: 700;
     line-height: 32px;
     letter-spacing: -0.333px;
+    cursor: pointer;
 }
 .social-icons {
     gap: 25.6px;
@@ -228,7 +229,7 @@ footer {
     margin-right: -16px;
     background-color: var(--dark-grey);
 }
-footer .icon img:hover {
+.icon img:hover {
     filter: brightness(0) saturate(100%) invert(99%) sepia(71%) saturate(1531%) hue-rotate(74deg) brightness(93%) contrast(88%);
 }
 .footer_container {
