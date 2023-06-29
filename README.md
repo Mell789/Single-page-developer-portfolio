@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://www.frontendmentor.io/solutions/responsive-single-page-developer-portfolio-mOz61hp2al](https://www.frontendmentor.io/solutions/responsive-single-page-developer-portfolio-mOz61hp2al)
-- Live Site URL: [https://mell789.github.io/Single-page-developer-portfolio/](https://mell789.github.io/Single-page-developer-portfolio/)
+- [Solution URL](https://www.frontendmentor.io/solutions/responsive-single-page-developer-portfolio-mOz61hp2al)
+- [Live Site Url](https://mell789.github.io/Single-page-developer-portfolio/)
 
 ### Built with
 
